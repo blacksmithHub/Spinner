@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.libor.spinner.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinXmen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/xmen_arrays"
+        android:spinnerMode="dialog" />
+
+    <Spinner
+        android:id="@+id/spin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/avengers" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageXmen"
+            android:layout_width="194dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.00"
+            app:srcCompat="@drawable/galgadot" />
+
+        <ImageButton
+            android:id="@+id/imageAvengers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/spiderman" />
+
+    </LinearLayout>
+
+</LinearLayout>

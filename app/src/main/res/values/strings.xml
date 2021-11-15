@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SPINNER</string>
+
+    <string name = "xmen_prompt">Choose a Team</string>
+    <string-array name="xmen_arrays">
+        <item>Colossus</item>
+        <item>Gal Gadot</item>
+        <item>Gambit</item>
+        <item>Wolverine</item>
+
+    </string-array>
+
+    <string name = "avengers_prompt">Choose a Team</string>
+    <string-array name="avengers">
+        <item>Spiderman</item>
+        <item>Iron Man</item>
+        <item>Thor</item>
+        <item>Captain America</item>
+
+    </string-array>
+
+</resources>
